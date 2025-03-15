@@ -58,6 +58,104 @@ def login():
     
     access_token = create_access_token(identity=user.id)
     return jsonify({"status": "success", "token": access_token}), 200
+# Modelos para Órdenes de Compra
+class Order(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    total_amount = db.Column(db.Float, nullable=False)
+    status = db.Column(db.String(20), default="processing")
+    created_at = db.Column(db.DateTime, default=db.func.current_timestamp())
+
+    user = db.relationship('User', backref=db.backref('orders', lazy=True))
+
+# Crear una Orden
+@app.route('/api/orders', methods=['POST'])
+@jwt_required()
+def create_order():
+    data = request.get_json()
+    
+    user_id = data.get('user_id')
+    total_amount = data.get('total_amount')
+    
+    if not user_id or not total_amount:
+        return jsonify({"message": "Datos incompletos"}), 400
+    
+    new_order = Order(user_id=user_id, total_amount=total_amount)
+    db.session.add(new_order)
+    db.session.commit()
+    
+    return jsonify({
+        "status": "success",
+        "message": "Orden creada exitosamente",
+        "order_id": new_order.id
+    }), 201
+
+# Listar Órdenes
+@app.route('/api/orders', methods=['GET'])
+@jwt_required()
+def list_orders():
+    orders = Order.query.all()
+    return jsonify({"orders": [
+        {"id": order.id, "user_id": order.user_id, "total_amount": order.total_amount, "status": order.status}
+        for order in orders
+    ]}), 200
+
+# Actualizar el estado de una Orden
+@app.route('/api/orders/<int:id>', methods=['PUT'])
+@jwt_required()
+def update_order(id):
+    order = Order.query.get(id)
+    if not order:
+        return jsonify({"message": "Orden no encontrada"}), 404
+    
+    data = request.get_json()
+    order.status = data.get("status", order.status)
+    db.session.commit()
+    
+    return jsonify({"status": "success", "message": "Orden actualizada exitosamente"}), 200
+# Modelo de Pagos
+class Payment(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    order_id = db.Column(db.Integer, db.ForeignKey('order.id'), nullable=False)
+    amount = db.Column(db.Float, nullable=False)
+    method = db.Column(db.String(50), nullable=False)
+    status = db.Column(db.String(20), default="pending")
+    created_at = db.Column(db.DateTime, default=db.func.current_timestamp())
+
+    order = db.relationship('Order', backref=db.backref('payments', lazy=True))
+
+# Registrar Pago
+@app.route('/api/payments', methods=['POST'])
+@jwt_required()
+def register_payment():
+    data = request.get_json()
+    
+    order_id = data.get('order_id')
+    amount = data.get('amount')
+    method = data.get('method')
+    
+    if not order_id or not amount or not method:
+        return jsonify({"message": "Datos incompletos"}), 400
+    
+    new_payment = Payment(order_id=order_id, amount=amount, method=method, status="approved")
+    db.session.add(new_payment)
+    db.session.commit()
+    
+    return jsonify({
+        "status": "success",
+        "message": "Pago registrado exitosamente",
+        "payment_id": new_payment.id
+    }), 201
+
+# Consultar Pagos
+@app.route('/api/payments', methods=['GET'])
+@jwt_required()
+def list_payments():
+    payments = Payment.query.all()
+    return jsonify({"payments": [
+        {"id": payment.id, "order_id": payment.order_id, "amount": payment.amount, "method": payment.method, "status": payment.status}
+        for payment in payments
+    ]}), 200
 
 # Obtener perfil de usuario
 @app.route('/api/users/<int:id>', methods=['GET'])
