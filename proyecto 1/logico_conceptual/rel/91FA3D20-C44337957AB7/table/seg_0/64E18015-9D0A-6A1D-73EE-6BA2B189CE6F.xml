@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64E18015-9D0A-6A1D-73EE-6BA2B189CE6F" name="Direcciones">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>D788DDBB-17F6-8D18-C185-99EFB1446DD8</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDDireccion" id="730C9AD2-2A93-CB8D-0250-0CFFD54E3968">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>5BC63D60-57F9-E453-5D28-CB1F48A5E98C</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDCliente" id="02C44DFC-2569-F87D-45EA-53B7C319E9DB">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>A1025A9B-7F62-0F89-D7EB-683B810C50AF</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="D4CB141F-1115-9E01-D76B-066C5AFDB2B0">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>635F4911-909A-80F0-87D1-21DBDEB12472</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="createdAt" id="3A3436AA-6BB9-3A8E-5FD7-E2D50EC99A6A">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>154D7A12-728F-770B-C206-932E91F6EB6C</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updatedAt" id="FCAD7BBE-E1AC-BCC2-EAC7-052C3778A606">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>6048D7B1-3505-3B84-C57A-C438EEF3F470</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_IDCliente" id="E404514C-AE2E-1D15-656B-F0C0C916FEA7">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>ED923B09-3FB3-A643-C5C2-732682D44523</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC1EBD06-0648-541B-74D0-34F0822F399D" referredColumn="9F9A2D0D-F62F-2CCB-A51B-ACA1A4B63851"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6539AF1-4994-B93F-3E6A-C833A1CA1872" name="Direcciones_PK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>9708C018-BEEC-7EC6-03AD-EBA7684AEAC7</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="730C9AD2-2A93-CB8D-0250-0CFFD54E3968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6A89E82-A519-5D7B-6D15-FDD1F5103AAF" name="Direcciones_Clientes_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>C8A675EB-A6B3-368C-8CC5-F49FCFB023CA</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E404514C-AE2E-1D15-656B-F0C0C916FEA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E2B831F-199D-4F74-3C1B-5158660BDFA5" name="Categorias">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:41:05 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDCategoria" id="378CA170-2810-C665-CD49-D703E64C9204">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:41:05 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="7A2A500E-B63C-A80D-AC96-EFC35945C730">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:41:05 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="createdAt" id="533B97A2-349F-EF1D-04E4-7944AC98BC18">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:41:05 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updatedAt" id="74C0B50F-5ADC-74F8-E1A0-A98933EA0FA2">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:41:05 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="77281A6F-E797-6C44-FD06-434BDFBA2210" name="MetodosDePagoClientes PK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:41:05 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>378CA170-2810-C665-CD49-D703E64C9204</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

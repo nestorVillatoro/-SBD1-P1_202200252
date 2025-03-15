@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C56DC1FD-1C7D-EA0A-101D-108C6A06B9E3">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 16:28:44 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

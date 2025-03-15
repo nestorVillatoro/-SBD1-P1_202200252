@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC395BBF-628D-1E5A-5AD5-27DFA96C88C1" name="Almacenes">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>E9366649-D200-4B2D-5529-DDC1F20FB256</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDAlmacen" id="072BAB2A-48AA-554F-CC4D-F5690F4B1724">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>BDF27B13-9801-FF86-F904-6381A64FB8AA</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Almacen" id="6AE3D212-B2D6-424F-54ED-F6256083B36D">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>77E79DC6-BCD6-D926-4E5F-D10259902CBF</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="createdAt" id="893A7B00-EA59-04C5-44E1-FA625FA61ACA">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>F326D49A-85F7-613F-2E7B-F139717C5689</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updatedAt" id="3A6C6DCA-F7B8-ADE7-A3A4-0E6D6AE2A62D">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>E90925AA-CA8D-B5E9-345C-84FA44620F1E</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CF4D901-B30F-C23E-4FBE-7B46ED1D908D" name="Almacenes_PK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>C49B75BF-AD5D-F780-4286-A621F0AA5E56</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="072BAB2A-48AA-554F-CC4D-F5690F4B1724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

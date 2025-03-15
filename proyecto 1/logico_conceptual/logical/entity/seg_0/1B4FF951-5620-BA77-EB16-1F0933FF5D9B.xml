@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B4FF951-5620-BA77-EB16-1F0933FF5D9B" name="Trabajadores">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDTrabajador" id="F504115C-5B4B-B0C7-DECD-3971C041B3CD">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDNacional" id="C30588B7-60BF-97FE-28E6-6B77F0799522">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="56F6F058-9246-A132-1250-F714CA84315C">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="B79A0572-B081-694D-6FA6-1F23AE443D75">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cargo" id="8B5828DB-F47B-D18C-A4ED-636F5D7C43F6">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDDepartamento" id="CF8D7A1A-FEFF-1534-D74A-AE9A611B7F7D">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="9A5D0BBF-75A7-6174-8253-A50EFF47DF88">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correoInstitucional" id="9ED8C408-E100-154D-18AC-91D7E8E3B747">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDSede" id="C61F3246-7529-DBEB-B249-22929B021A74">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="0C874CAD-8EFC-2E1C-D2EA-45C20AC8433E">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:17:01 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="createdAt" id="A7815ADB-9C1D-6AE8-E0F1-932EF7C1A602">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updatedAt" id="F11E50CE-8E66-A483-517C-1E541ABC57E6">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDDepartamento1" id="A40E7E8D-1408-EDBB-364F-3E290A71CFE1">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 18:15:13 UTC</createdTime>
+<generatorID>3F4426C8-7077-145E-73E9-84F50113592D</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<referedAttribute>C49739C0-7153-47A8-BB10-D60BA9ECDB29</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDSede1" id="CE7BBDBA-3172-9064-DE53-45F3C6456238">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 18:16:14 UTC</createdTime>
+<generatorID>B21B59B6-6832-A1A9-C730-7D39FE557394</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<referedAttribute>EC4CDDE9-A96A-2D79-5670-EF9C5DDE8499</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8915E67E-AFCC-118B-5866-626288B7EAC3" name="Clientes PK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:15:56 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F504115C-5B4B-B0C7-DECD-3971C041B3CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

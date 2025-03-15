@@ -1,0 +1,282 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31F7C1AD-9910-CE86-58EE-76B70FA9894F" name="Productos">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>711634A3-FDA0-BAA6-7EDF-3CCB434A474C</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDproducto" id="6ED6D407-2B0E-D027-DC77-4144D450CB88">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>C1621EA3-C464-6FA8-DFD9-AC6B15C01624</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sku" id="8A9CAC25-51FF-B62F-4ADE-3EA9AD69A3EE">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>B3AF5BDE-8833-A7CA-8AB3-C656FB9E83F4</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="81E9A71B-A66A-D878-AF08-9790593DED7A">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>8D929212-351E-6C5C-A4F1-C26BBAC78864</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="0EE12350-8F88-FF59-8CD5-77A8B779B575">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>C47452BB-441B-5708-F090-B6BC56E3C59C</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="D6F652C8-628B-F91E-D9FD-B328017175D3">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>32B83D89-A1B7-06C2-917C-546C62420A97</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slug" id="B95868FF-03A3-2776-3136-10A22C7B1634">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>8CDD2416-E340-5BA0-FCD8-84C960C3C161</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDCategoria" id="389CB141-0FA0-E617-83F0-2774AE6B095B">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>86830790-F94F-6EF7-2BA1-AE1FEB124182</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="disponibilidad" id="500D87EC-24F2-77D6-23B2-FECD6E11CBCE">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>1C9866B5-90DA-295A-FA1A-E7810801B567</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="createdAt" id="4A3B2594-9E81-A05C-19EC-3599BF93D4C7">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>7960DF12-145D-AAED-6173-6D2D8D715B61</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updatedAt" id="3DEF745B-3E40-6DEE-945A-802FCC46E3F9">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>E024EF91-0AAE-0E78-F5B0-6F8D5F81FF97</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categorias_IDCategoria" id="7030BE36-1AE1-C8AF-562B-853388172E9C">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>A42D4641-3D5E-0190-42F2-099CA93ED748</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C031E8A-5D0A-82B1-419A-E192B2F37707" referredColumn="1933AA7E-B788-8F03-8AD5-BDEBC651EB48"/>
+</associations>
+</Column>
+<Column name="Inventario_IDInventario" id="00972088-1D3F-29AC-3411-9D055F12B6AB">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>CC918B12-4740-3C7C-7C2C-64A1C9E0CF89</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70AD6668-36A7-3470-01E9-72CFCE25C4CF" referredColumn="F29F65AC-7C48-43CC-15BD-3E5188C6B88E"/>
+</associations>
+</Column>
+<Column name="DetallesCom_IDDetalleCom" id="5111C3D1-71BB-FAAF-8F75-C2CA1DC94AA3">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>3A75EE7A-E4B0-0B1C-3021-5AAEF58642C8</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7AD19B9-EE14-59E0-C091-BDCE2DDA21F4" referredColumn="935BA3A6-90BB-8734-FEDF-50C0D57B6512"/>
+</associations>
+</Column>
+<Column name="Devoluciones_IDDevolucion" id="542FAADD-1FA9-C5CB-DA43-C94DDA573BB9">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>17D8BB70-5050-DE2A-B772-E549D8A27B4E</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1649282-D32A-3E69-8065-163E9482DF7C" referredColumn="9FFD2A61-A0FC-2ACB-3706-B03C7F1D99E1"/>
+</associations>
+</Column>
+<Column name="DetallesTras_IDDetalleTras" id="0F4D113C-BC3B-4FE6-793F-AB061C6A0F65">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>FA2414E3-9ECA-FBCD-7023-CD9BD6FD7E2E</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BA7F90C-7156-B93B-BC5A-ADD00FE497E6" referredColumn="EE094252-5E44-F881-BD43-6BE21473BA51"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96C27EBB-F780-BBB7-DF89-B030D2305958" name="Productos_PK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>B7B34C6B-83E0-FC51-C532-B2D59FF8B4E3</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ED6D407-2B0E-D027-DC77-4144D450CB88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="647141B3-FED5-3AD1-A730-246A8A2A45C4" name="Productos__IDX">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1DB3D592-F2D5-C317-D8D7-8A5728D0E94C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="542FAADD-1FA9-C5CB-DA43-C94DDA573BB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3D0CF7F-916F-75CD-E4A3-4ABF63641508" name="Productos_Inventario_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>2CB3E285-2EA1-2638-8821-992A52D4AC5A</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00972088-1D3F-29AC-3411-9D055F12B6AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EB1ABB6-6F38-F706-AF0C-B6CA75C8C5C8" name="ProductosDetalles_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>B376D375-59E3-3815-97AB-99931AADC854</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5111C3D1-71BB-FAAF-8F75-C2CA1DC94AA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="52EB7911-4E71-49C6-04A1-70ABE2883192" name="Productos_Devoluciones_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>1DB3D592-F2D5-C317-D8D7-8A5728D0E94C</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="542FAADD-1FA9-C5CB-DA43-C94DDA573BB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C68D14DF-F1AB-17A4-2294-5DEEF00F4947" name="Productos_DetallesTraslados_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>3E5C2DCA-32C2-E4B8-C983-663823D93BA8</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F4D113C-BC3B-4FE6-793F-AB061C6A0F65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D1EAF96-7C14-8FED-AE78-58E48ED5331B" name="Productos_Categorias_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>7982DF82-D5ED-35A9-A370-6713226F4B8D</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7030BE36-1AE1-C8AF-562B-853388172E9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

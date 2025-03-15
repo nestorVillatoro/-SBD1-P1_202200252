@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0B14C20-D3B0-7458-296A-506321F97BDF" containerWithKeyObject="C17F1695-85D8-99C3-A070-441A4159CC60" localFKIndex="17ECEACF-A896-8468-5C69-8FBB50BA33BD" name="Traslados_Almacenes_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>C4451AA8-4B07-198A-10FD-6D853BD46880</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<referredTableLongName>Almacenes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BC395BBF-628D-1E5A-5AD5-27DFA96C88C1</referredTableID>
+<keyObject>6CF4D901-B30F-C23E-4FBE-7B46ED1D908D</keyObject>
+<referredKeyID>6CF4D901-B30F-C23E-4FBE-7B46ED1D908D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDAlmacen</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

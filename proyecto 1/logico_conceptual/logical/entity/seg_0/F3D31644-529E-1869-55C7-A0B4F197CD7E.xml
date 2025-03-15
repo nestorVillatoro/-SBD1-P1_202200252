@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3D31644-529E-1869-55C7-A0B4F197CD7E" name="Envios">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:48:42 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDEnvio" id="52DE656F-B9EC-C3B0-9534-4CF9C35B5B28">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:48:42 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaDeDespacho" id="EFDE5A60-09FF-5873-F538-0C301DEA1BE9">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:48:42 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDOrdenDeCompra" id="BEA99439-0F57-729B-A5A7-CCB0003D036E">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:48:42 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDDireccion" id="1C7570FE-DC88-6CC5-221B-C774C595EF04">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:48:42 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDEmpresa" id="4DC7D72D-4D3F-CAA9-3CD2-51B0D01C72EC">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:48:42 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeroDeSeguimiento" id="37AF0F4C-2E13-30F9-8D18-1012CABF7372">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:48:42 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoDelEnvio" id="BB469A91-7A11-72E1-EAFA-C2B53913083F">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:49:17 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="createdAt" id="3194D124-90DA-0090-3E03-19122B365CB7">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:48:42 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updatedAt" id="370346C3-6071-FC74-D2ED-DDD17919BAF0">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:48:42 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDEmpresa1" id="91779C9A-435D-F487-CA24-A46996C42546">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 18:38:50 UTC</createdTime>
+<generatorID>AA37039F-5217-6F0A-278F-79E44208E5F1</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<referedAttribute>A1011AA2-2CFD-57E7-1030-2AF46A2972E5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDOrdenDeCompra1" id="DAF6536D-4F05-D591-B730-9F73DAA9BF50">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:25:20 UTC</createdTime>
+<generatorID>B3749873-A33E-BB0B-13DD-836CF9FFC448</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<referedAttribute>C1B4A5D4-8332-5A17-585C-1053BA673059</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDDireccion1" id="2646060D-764B-0412-C8D7-BCC9472AA955">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:25:35 UTC</createdTime>
+<generatorID>4B404964-FDBA-8DD2-B913-35C967FECFAB</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<referedAttribute>5BC63D60-57F9-E453-5D28-CB1F48A5E98C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D2F659C-5ADC-75A2-413B-A377E773AB00" name="Clientes PK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:48:42 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52DE656F-B9EC-C3B0-9534-4CF9C35B5B28</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

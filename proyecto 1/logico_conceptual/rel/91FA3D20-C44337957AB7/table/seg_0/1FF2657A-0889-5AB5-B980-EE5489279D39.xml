@@ -1,0 +1,227 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FF2657A-0889-5AB5-B980-EE5489279D39" name="Envios">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>F3D31644-529E-1869-55C7-A0B4F197CD7E</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDEnvio" id="A2271CB3-B4EB-2C0C-538F-38BA641ADB2B">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>52DE656F-B9EC-C3B0-9534-4CF9C35B5B28</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaDeDespacho" id="32D05704-D67E-FE9D-5327-23E7372F524C">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>EFDE5A60-09FF-5873-F538-0C301DEA1BE9</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDOrdenDeCompra" id="933762FB-C848-5543-CC5B-2A6700673FEB">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>BEA99439-0F57-729B-A5A7-CCB0003D036E</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDDireccion" id="FE1E75A8-D532-96D7-5831-A8ECB26F5230">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>1C7570FE-DC88-6CC5-221B-C774C595EF04</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDEmpresa" id="8CE1F345-0E3C-9D40-132C-5BF043A3C084">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>4DC7D72D-4D3F-CAA9-3CD2-51B0D01C72EC</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroDeSeguimiento" id="97769C74-F902-E4F8-82CA-D422BEC42B88">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>37AF0F4C-2E13-30F9-8D18-1012CABF7372</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoDelEnvio" id="AC67136D-2043-1F3D-EA61-F368E1FEBDB8">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>BB469A91-7A11-72E1-EAFA-C2B53913083F</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="createdAt" id="2A7C62CE-5F12-0883-EF18-3833CBDF091D">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>3194D124-90DA-0090-3E03-19122B365CB7</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updatedAt" id="C163F2F0-A0B2-2500-9581-43F957671A7E">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>370346C3-6071-FC74-D2ED-DDD17919BAF0</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpresasDeTransporte_IDEmpresa" id="AE4F52F0-A148-CCBD-81F9-7177DD40C2CA">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>91779C9A-435D-F487-CA24-A46996C42546</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1913D65-89DB-ABA5-599E-77404AF3A306" referredColumn="880604B3-BB50-4144-6884-6FD1E1FD2C54"/>
+</associations>
+</Column>
+<Column name="OrdenesCompra_IDOrdenCompra" id="ADB51211-C907-B981-D40E-0BDF1F43D169">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>DAF6536D-4F05-D591-B730-9F73DAA9BF50</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F8F68AA-FD3D-BFA5-D6C1-43C151D926F6" referredColumn="3D4E0027-2B06-8386-7D20-EFB4F91AD9F3"/>
+</associations>
+</Column>
+<Column name="Direcciones_IDDireccion" id="60B4F032-AE88-DB4F-0B14-8256ACFAC417">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>2646060D-764B-0412-C8D7-BCC9472AA955</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20D997AD-928B-CAE5-6B4D-C41035F79EC1" referredColumn="730C9AD2-2A93-CB8D-0250-0CFFD54E3968"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC32DBBB-9D25-FA3A-322C-7B59F7273E00" name="Envios_PK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>3D2F659C-5ADC-75A2-413B-A377E773AB00</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2271CB3-B4EB-2C0C-538F-38BA641ADB2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C32E887-3819-CD23-7546-91EB7A67961A" name="Envios__IDX">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B3749873-A33E-BB0B-13DD-836CF9FFC448</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="ADB51211-C907-B981-D40E-0BDF1F43D169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7D6C5BB-3754-50F1-648C-95603EF0A209" name="Envios__IDXv1">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4B404964-FDBA-8DD2-B913-35C967FECFAB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="60B4F032-AE88-DB4F-0B14-8256ACFAC417"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BDF012B-B420-AC60-E9B3-42D6AB64C8EA" name="Envios_EmpresasDeTransporte_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>AA37039F-5217-6F0A-278F-79E44208E5F1</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE4F52F0-A148-CCBD-81F9-7177DD40C2CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9FB5F9CA-E130-C112-A494-0294AF7685BB" name="Envios_OrdenesDeCompra_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>B3749873-A33E-BB0B-13DD-836CF9FFC448</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADB51211-C907-B981-D40E-0BDF1F43D169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F32798E5-2199-C4FC-C3B8-A3299CA28842" name="Envios_Direcciones_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>4B404964-FDBA-8DD2-B913-35C967FECFAB</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60B4F032-AE88-DB4F-0B14-8256ACFAC417"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logico_conceptual" id="69D14A0E-4F4C-9618-ACB9-7D31FF712A95" version="3.5">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 16:28:44 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>69D14A0E-4F4C-9618-ACB9-7D31FF712A95</designId>
+</OSDM_Design>

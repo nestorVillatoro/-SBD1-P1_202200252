@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9789C99D-BE3F-5BF4-2D85-6C46C9E518A2" name="Traslados">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:43:03 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDTraslado" id="EE93DDE5-E637-07CB-4269-EED1E4F125DB">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:43:03 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaDeMovimiento" id="2FE5CD27-FA88-15F3-6E56-69D33361FA2A">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:43:03 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDAlmacenDeOrigen" id="25BE3719-7D25-DEC7-2F76-4EDBA0C5633B">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:43:03 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDAlmacenDeDestino" id="9A3DDEF8-A241-D222-4890-F741A79C1D06">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:43:03 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoTraslado" id="F612B48E-1C5E-7CD0-4EA0-6E84CF86ED16">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:43:34 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaEstimadaDeLlegada" id="F3CEF955-1B27-75C8-6417-09D82264374A">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:43:41 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="createdAt" id="6F0A82AC-E5C6-24EC-004E-907D8E920FED">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:43:03 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updatedAt" id="F5CAA0DC-CDE3-7DF2-969E-96C81C356C39">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:43:03 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDAlmacen" id="9E2D45FA-CC79-A610-52A3-A626AC30B5B2">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:03:23 UTC</createdTime>
+<generatorID>C4451AA8-4B07-198A-10FD-6D853BD46880</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<referedAttribute>BDF27B13-9801-FF86-F904-6381A64FB8AA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDAlmacen1" id="EB23C4A4-D937-F1B3-74D5-371B54C91B29">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:03:42 UTC</createdTime>
+<generatorID>A0F9E0FD-FD26-E4D3-3631-9E7F61DB89FE</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<referedAttribute>BDF27B13-9801-FF86-F904-6381A64FB8AA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BCBA7C69-AADC-2BBD-F0DC-EC2A9DAFF6FD" name="MetodosDePagoClientes PK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:43:03 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE93DDE5-E637-07CB-4269-EED1E4F125DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

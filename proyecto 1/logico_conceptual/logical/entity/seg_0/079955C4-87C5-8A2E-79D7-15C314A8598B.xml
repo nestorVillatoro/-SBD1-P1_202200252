@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="079955C4-87C5-8A2E-79D7-15C314A8598B" name="Devoluciones">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:46:14 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDDevolucion" id="17F1F864-0FB1-D5C7-D662-F1A54D45EFFE">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:46:14 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDOrdenDeCompra" id="14D58D53-27A8-5C34-44A1-22254213B255">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:46:14 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaDeSolicitud" id="35D324FB-0B93-E78D-AEBA-60A1308B8B57">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:46:14 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="motivo" id="3BB3519A-F18D-A0AC-D22C-4069CDFD5B08">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:46:14 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDProducto" id="528B1036-C8DD-C2CC-4F5A-818B93BB1FC4">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:46:14 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoDelProceso" id="98AFC00A-D922-A701-602A-AAC0324C425F">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:46:14 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="createdAt" id="C84C5FA5-69A9-7BEC-DC99-61D3F2339DE9">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:46:14 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="updatedAt" id="1C04A099-3911-DA83-3F76-FAD3002DB332">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:46:14 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDOrdenDeCompra1" id="D9A95B98-14E7-9602-138B-BB6B0BE989E4">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:24:11 UTC</createdTime>
+<generatorID>83833D2E-B098-3FDB-61BE-BDA19F6132F2</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<referedAttribute>C1B4A5D4-8332-5A17-585C-1053BA673059</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58B5A214-46F0-6C26-DEA8-699EDEFBD535" name="Clientes PK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 17:46:14 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<engineerTo>
+<item key="91FA3D20-65DA-A3C9-A8B7-C44337957AB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17F1F864-0FB1-D5C7-D662-F1A54D45EFFE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F1649282-D32A-3E69-8065-163E9482DF7C" containerWithKeyObject="31F7C1AD-9910-CE86-58EE-76B70FA9894F" localFKIndex="52EB7911-4E71-49C6-04A1-70ABE2883192" name="Productos_Devoluciones_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>1DB3D592-F2D5-C317-D8D7-8A5728D0E94C</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<referredTableLongName>Devoluciones</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13FEA6A1-21E8-6284-F7B9-0CA9996F9B5E</referredTableID>
+<keyObject>96D55D85-347B-D4E5-530B-9F7C24A9EDC6</keyObject>
+<referredKeyID>96D55D85-347B-D4E5-530B-9F7C24A9EDC6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDDevolucion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="327AB045-59F6-A1B5-F7A6-32EA5CBD3824" name="DetallesTraslados">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>67A98FA9-DF90-68AB-5068-6359009E30B6</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDDetalleTraslado" id="EE094252-5E44-F881-BD43-6BE21473BA51">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>889DFEC8-34A5-C050-C76C-36EA3DE461BA</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDTraslado" id="BCB3532B-E5A7-A94B-B470-84083DA83233">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>EB9D3282-1CB4-0B5A-2035-E7E3970D60E2</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDProducto" id="FD3C0C16-DE43-99A5-31EE-A76744A9B8B9">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>6C430BDC-C515-4BD5-3C8E-8574D6C6D51D</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidadTransferida" id="FEBB2A25-F403-91AD-E0E2-BBCE8D93B40B">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>7547EC0D-2A93-260C-D8DF-D5CF7C61F430</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="createdAt" id="F9FFD7E3-CAB2-6BCF-063F-0614C901B48F">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>BCDE51D6-A5AD-09E8-0A95-E2B4CEC1ED7F</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updatedAt" id="06D93A77-032C-3B2F-497F-9F7A45526ED7">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>B504AE54-0EB3-AAB7-9D66-ED1D43D42C9C</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Traslados_IDTraslado" id="E512CB00-749B-9DBD-5BBE-9CA3F0A688FD">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>F9C2C612-B63E-299C-79D5-47D91FE25717</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DB42C2F-ED69-D1DA-5748-1F587D5D4698" referredColumn="20A24C01-0E76-1939-431B-7C3B06F8FB1B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95E1CDD3-BF84-5456-91B2-EA55FFA72D61" name="DetallesTraslados_PK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>CD0378D2-C61A-EB44-A2B1-7C8745DAA6F2</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE094252-5E44-F881-BD43-6BE21473BA51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDEE9E15-F2A8-30CB-FDFD-2A820AB7D91A" name="DetallesTraslados__IDX">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D6F434CA-4DEC-3786-78E6-3F9B8517D31F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E512CB00-749B-9DBD-5BBE-9CA3F0A688FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F39ACD86-6F8E-7D7E-A12A-B3F9CD2C5734" name="DetallesTraslados_Traslados_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>D6F434CA-4DEC-3786-78E6-3F9B8517D31F</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E512CB00-749B-9DBD-5BBE-9CA3F0A688FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

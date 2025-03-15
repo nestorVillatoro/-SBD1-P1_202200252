@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9F8F68AA-FD3D-BFA5-D6C1-43C151D926F6" containerWithKeyObject="1FF2657A-0889-5AB5-B980-EE5489279D39" localFKIndex="9FB5F9CA-E130-C112-A494-0294AF7685BB" name="Envios_OrdenesDeCompra_FK">
+<createdBy>nyavi</createdBy>
+<createdTime>2025-03-14 19:40:04 UTC</createdTime>
+<generatorID>B3749873-A33E-BB0B-13DD-836CF9FFC448</generatorID>
+<ownerDesignName>logico_conceptual</ownerDesignName>
+<referredTableLongName>OrdenesDeCompra</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8F917DCA-8D1E-EE1B-DED5-4FD32679EA57</referredTableID>
+<keyObject>5DE9646B-C0D0-D748-EB95-83927B98A687</keyObject>
+<referredKeyID>5DE9646B-C0D0-D748-EB95-83927B98A687</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDOrdenDeCompra</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
