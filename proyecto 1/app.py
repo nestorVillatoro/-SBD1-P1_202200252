@@ -2,9 +2,9 @@ from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required
 from werkzeug.security import generate_password_hash, check_password_hash
-import os
 
-# Inicializar Flask
+
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'  # Cambiar a Oracle si es necesario
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
@@ -17,7 +17,7 @@ jwt = JWTManager(app)
 def home():
     return jsonify({"message": "Bienvenido a la API del Sistema de Ventas"}), 200
 
-# Modelos
+
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(50), unique=True, nullable=False)
@@ -25,12 +25,10 @@ class User(db.Model):
     password = db.Column(db.String(200), nullable=False)
     phone = db.Column(db.String(15))
 
-# CREAR BASE DE DATOS AL EJECUTAR
+
 with app.app_context():
     db.create_all()
     
-
-# Registro de usuario
 @app.route('/api/users', methods=['POST'])
 def register_user():
     data = request.get_json()
@@ -47,7 +45,7 @@ def register_user():
     
     return jsonify({"status": "success", "message": "Usuario creado exitosamente"}), 201
 
-# Login de usuario
+
 @app.route('/api/users/login', methods=['POST'])
 def login():
     data = request.get_json()
@@ -58,7 +56,8 @@ def login():
     
     access_token = create_access_token(identity=user.id)
     return jsonify({"status": "success", "token": access_token}), 200
-# Modelos para Órdenes de Compra
+
+
 class Order(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
@@ -68,7 +67,7 @@ class Order(db.Model):
 
     user = db.relationship('User', backref=db.backref('orders', lazy=True))
 
-# Crear una Orden
+
 @app.route('/api/orders', methods=['POST'])
 @jwt_required()
 def create_order():
@@ -90,7 +89,7 @@ def create_order():
         "order_id": new_order.id
     }), 201
 
-# Listar Órdenes
+
 @app.route('/api/orders', methods=['GET'])
 @jwt_required()
 def list_orders():
@@ -100,7 +99,7 @@ def list_orders():
         for order in orders
     ]}), 200
 
-# Actualizar el estado de una Orden
+
 @app.route('/api/orders/<int:id>', methods=['PUT'])
 @jwt_required()
 def update_order(id):
@@ -113,7 +112,8 @@ def update_order(id):
     db.session.commit()
     
     return jsonify({"status": "success", "message": "Orden actualizada exitosamente"}), 200
-# Modelo de Pagos
+
+
 class Payment(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     order_id = db.Column(db.Integer, db.ForeignKey('order.id'), nullable=False)
@@ -124,7 +124,7 @@ class Payment(db.Model):
 
     order = db.relationship('Order', backref=db.backref('payments', lazy=True))
 
-# Registrar Pago
+
 @app.route('/api/payments', methods=['POST'])
 @jwt_required()
 def register_payment():
@@ -147,7 +147,7 @@ def register_payment():
         "payment_id": new_payment.id
     }), 201
 
-# Consultar Pagos
+
 @app.route('/api/payments', methods=['GET'])
 @jwt_required()
 def list_payments():
@@ -157,7 +157,7 @@ def list_payments():
         for payment in payments
     ]}), 200
 
-# Obtener perfil de usuario
+
 @app.route('/api/users/<int:id>', methods=['GET'])
 @jwt_required()
 def get_user(id):

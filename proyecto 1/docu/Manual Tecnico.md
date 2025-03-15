@@ -278,12 +278,12 @@
 ## Descripción de la API
 
 API_BD1_P1
-﻿
+
 
 POST
 Crear Usuario
 http://127.0.0.1:5000/api/users
-﻿
+
 
 Body
 raw (json)
@@ -297,7 +297,7 @@ json
 POST
 Iniciar Sesión
 http://127.0.0.1:5000/api/users/login
-﻿
+
 
 Body
 raw (json)
@@ -309,12 +309,12 @@ json
 GET
 Obtener Perfil de Usuario
 http://127.0.0.1:5000/users/1
-﻿
+
 
 PUT
 Actualizar Usuario
 http://127.0.0.1:5000/users/1
-﻿
+
 
 Body
 raw (json)
@@ -326,17 +326,17 @@ json
 DELETE
 Eliminar Usuario
 http://127.0.0.1:5000/users/1
-﻿
+
 
 GET
 Listar Productos
 http://127.0.0.1:5000/products
-﻿
+
 
 POST
 Crear Producto
 http://127.0.0.1:5000/products
-﻿
+
 
 Body
 raw (json)
@@ -351,7 +351,7 @@ json
 PUT
 Actualizar Producto
 http://127.0.0.1:5000/products
-﻿
+
 
 Body
 raw (json)
@@ -363,17 +363,17 @@ json
 DELETE
 Eliminar Producto
 http://127.0.0.1:5000/products
-﻿
+
 
 GET
 Listar Órdenes
 http://127.0.0.1:5000/orders
-﻿
+
 
 PUT
 Actualizar Estado de una Orden
 http://127.0.0.1:5000/orders/101
-﻿
+
 
 Body
 raw (json)
@@ -384,7 +384,7 @@ json
 POST
 Registrar un Pago
 http://127.0.0.1:500/payments
-﻿
+
 
 Body
 raw (json)
@@ -399,6 +399,7 @@ Listar Pagos
 http://127.0.0.1:500/payments
 
 ## Endpoints Utilizados
+```
 {
 	"info": {
 		"_postman_id": "bb29ae34-6d2f-445d-9893-03f0ae13e75d",
@@ -831,3 +832,4 @@ http://127.0.0.1:500/payments
 		}
 	]
 }
+```
